@@ -98,7 +98,11 @@ textarea {
    ========================================================================== */
 
 #intro {
-    background: url(../img/engaged-full.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/engaged-full.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     height: 800px;
     margin: 0 auto;
@@ -122,16 +126,16 @@ textarea {
     z-index: 1;
 }
 
-.story {
+/*.story {
     margin: 0 auto;
     min-width: 980px;
     overflow: auto;
     width: 980px;
-}
+}*/
 
 .center {
-    padding: 80px 0 0 0;
     text-align: center;
+    margin:0px auto;
 }
 
 #header .center{
@@ -141,7 +145,7 @@ textarea {
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 36;
+    font-size: 36px;
     margin-top: 150px;
     color:#85C2A3;
 }
@@ -152,10 +156,10 @@ h1{
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: #5c5c5c;
     line-height: 34px;
-    margin-top: 40px;
+    margin: 40px 0px;
 }
 
 .venues{
@@ -163,7 +167,7 @@ p {
     display: inline-block;
     padding: 40px 80px;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: #5c5c5c;
     line-height: 25px;
 }
@@ -179,328 +183,15 @@ a {
     font-weight: 600;
 }
 
+/* Responsive */
 
-
-
-
-
-
-
-
-
-
-#grid{
-    max-width:300px;
-    max-height:300px; 
-    display:inline-block;
-    width:25%;  
-}
-
-#picContainer{
-    text-align: center;
-    background-color: black;
-    width:100%;
-}
-
-#logo{
-    padding:10px;
-    display: inline-block;
-    width:30%;
-}
-
-#chat-icon{
-    visibility: hidden;
-    display: inline-block;
-    width: 5%;
-    float: right;
-    padding-top: 15px;
-    padding-right: 5px;
-}
-
-#chat{
-    visibility: hidden;
-    display: inline-block;
-    float: right;
-    padding: 22px 20px 0px 0px;
-    font-size: 1.20em;
-    color: #454545;
-}
-
-#headerContainer{
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 35px;
-}
-
-@media (max-width: 1200px) {
-    #headerContainer{
-        top: 30px;
+@media (max-width: 600px) {
+    .venues{
+        padding: 10px 20px;
     }
 }
 
-@media (max-width: 1000px) {
-    #headerContainer{
-        top: 20px;
-    }
-}
-
-.headerText{
-    padding:20px;
-    text-decoration: none;
-    color:#707070;
-    font-size: 20px;
-}
-
-@media (max-width: 1000px) {
-    .headerText{
-        padding: 10px;
-    }
-}
-
-#name{
-    font-size: 40px;
-    background-color:black;
-    color:white;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
-    margin-top: -70px;
-    text-transform: uppercase;
-}
-
-.section{
-    background-color:#f7f7f7;
-    border-top: solid 3px #C0C0C0;
-    border-bottom: solid 3px #C0C0C0;
-}
-
-.title{
-    width:300px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    border-bottom:3px solid #33CCCC;
-}
-
-#me{
-    width:300px;
-    height:300px;
-    padding-right: 20px;
-    display: inline-block;
-}
-
-.intro-text{
-    display: inline-block;
-    text-align: left;
-}
-
-.yellow-text{
-    color:#00CC99;
-    display: inline-block;
-    font-weight: bolder;
-    font-size: 1.3em;
-}
-
-.intro-text h1{
-    font-family: "felt-tip-roman",sans-serif;
-    color:#454545;
-}
-
-.middle{
-    background-color:#ed145b;
-    color:white;
-    font-family: "felt-tip-roman",sans-serif;
-    display: inline-block;
-}
-
-#whoAmIText{
-    padding:40px;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.socialIcons{
-    width:30px;
-    height:30px;
-    padding:5px 5px 50px 5px;
-    opacity: 0.5;
-}
-
-.fade {
-    opacity: 0.5;
-}
-
-.fade:hover {
-    opacity: 1;
-}
-
-#pull-right{
-    padding-right: 40px;
-    float:right;
-}
-
-.skills{
-    background: url("../images/diamonds.png") -0px -0px no-repeat;
-    background-color: #f4ecf1;
-    background-repeat: repeat;
-}
-
-.skills .title{
-    border-bottom: 2px solid #bc3a94;
-    padding-top: 50px;
-}
-
-#circles{
-    padding: 50px 0 50px 0;
-    text-align: center;
-}
-
-.circle {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 100%;
-    width:160px;
-    height:160px;
-    position: relative;
-    display:inline-block;
-    margin:20px;
-}
-
-.circle-border {
-    border: 2px solid #bc3a94;
-}
-
-.circle-solid{
-    background-color: whitesmoke;
-}
-
-.circle:before {
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-
-.circle-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-}
-
-.score-text {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 1em;
-    line-height: 1em;
-    font-size: 25px;
-}
-
-.rightSideImg{
-    height:300px;
-    width:300px;
-    float:right;
-    padding-left: 20px;
-}
-
-.rightSide{
-    float:left;
-    padding:40px;
-    font-size:1.3em;
-    line-height: 150%;
-}
-
-.leftSide{
-    float:right;
-    padding:40px;
-    font-size:1.3em;
-    line-height: 150%;
-}
-
-.leftSideImg{
-    height:300px;
-    width:300px;
-    float:left;
-    padding-right: 20px;
-}
-
-.letsChat{
-    padding-top: 40px;
-    text-align: center;
-}
-
-.me2{
-    height:300px;
-    width:300px;
-    margin:40px;
-}
-
-.chatText{
-    display:inline-block;
-}
-
-*{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.grow:hover
-{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.logo{
-    width:50px;
-    border-radius: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    display: inherit;
-    margin-bottom: 50px;
-}
-
-.projects{
-    text-align: center;
-}
-
-.projectImages{
-    height: 300px;
-    width:300px;
-    padding-bottom: 20px;
-}
-
-.project{
-    display: inline-block;
-    text-align: center;
-    padding: 0px 50px;
-    padding-bottom: 50px
-}
-
-.projectText{
-    text-align: left;
-    width: 300px;
-}
-
-.project h2{
-    margin-top: 0px;
-    margin-bottom: 10px;
-    color:#FF9999;
-}
-
-.chat-section{
-    overflow: hidden;
-    background: url("../images/circles.png") -0px -0px no-repeat;
-    background-color: #9fbfc0;
-    background-repeat: repeat;
-}
+/* Clear Fix */
 
 .clearfix:after {
      visibility: hidden;
@@ -515,146 +206,6 @@ a {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
-
-/* menu drawer */
-
-@media (max-width: 865px) {
-    #headerContainer{
-        visibility: hidden;
-    }
-
-    #chat-icon{
-        visibility: visible;
-    }
-
-    #chat{
-        visibility: visible;
-    }
-}
-
-@media (max-width: 725px) {
-
-    #chat{
-        padding-top: 18px;
-    }
-}
-
-@media (max-width: 625px) {
-
-    #chat{
-        padding-top: 15px;
-        font-size: 1.1em;
-    }
-
-    .project{
-        padding: 0px 10px;
-        padding-bottom: 30px
-    }
-}
-
-/* responsive */
-
-@media (max-width: 480px) {
-    .headerText{
-        font-size:12px;
-        padding:5px;
-    }
-
-    #logo{
-        width:40%;
-    }
-
-    #chat-icon{
-        width: 7%;
-        padding-top: 10px;
-    }
-
-    #chat{
-        font-size: 1.0em;
-        padding: 12px 12px 0px 0px;
-    }
-
-    #name{
-        font-size:30px;
-        width:300px;
-    }
-
-    #whoAmIText{
-        padding:10px;
-        float:none;
-    }
-
-    #me{
-        padding:0px;
-        padding-top: 20px;
-        float:none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #meText{
-        padding-top: 20px;
-    }
-
-    #pull-right{
-        float:none;
-        text-align: center;
-        padding:0px;
-        padding-top:10px;
-    }
-
-    #socialIcons{
-        display:inline-block;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 20px;
-    }
-
-    #circles{
-        padding:30px 0px 30px 0px;
-    }
-
-    .circle{
-        margin:10px;
-    }
-
-    .rightSideImg{
-        padding:20px 0px 20px 0px;
-        float:none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .rightSide{
-        padding:10px;
-        float:none;
-    }
-
-    .leftSide{
-        padding:10px;
-        float:none;
-    }
-
-    .leftSideImg{
-        padding:20px 0px 20px 0px;
-        float:none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .me2{
-        margin:0px;
-        margin-bottom:0px;
-    }
-
-}
-
-
-
-
 
 /* ==========================================================================
    Helper classes
