@@ -185,9 +185,13 @@ a {
 
 /* Responsive */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .venues{
         padding: 10px 20px;
+    }
+
+    #intro {
+        height: 500px;
     }
 }
 
