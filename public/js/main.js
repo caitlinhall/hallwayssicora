@@ -25,3 +25,27 @@ $(document).ready(function($){
 		});
 	}
 });
+
+$(".toggle-btn:not('.noscript') input[type=radio]").addClass("visuallyhidden");
+$(".toggle-btn:not('.noscript') input[type=radio]").change(function() {
+    if( $(this).attr("name") ) {
+        $(this).parent().addClass("success").siblings().removeClass("success")
+    } else {
+        $(this).parent().toggleClass("success");
+    }
+});
+
+var i = 2;
+$(".anotherRSVP").click(function() {
+	$(".anotherRSVP").last().before("<div class='guest'>Guest "+ i +"</div><div class='form-group wedding-form'>" +
+		"<input type='firstName' class='form-control' id='exampleInputFirstName1' placeholder='First Name'></div>" +
+		"<div class='form-group wedding-form'><input type='lastName' class='form-control' id='exampleInputLastName1' placeholder='Last Name'></div>" +
+		"<div class='toggle-btn-grp joint-toggle'><label onclick='' class='toggle-btn'><input type='radio' name='group3'/>Accept</label>" +
+		"<label onclick='' class='toggle-btn'><input type='radio' name='group3'/>Regret</label></div>");
+	i = i + 1;
+});
+
+
+
+
+
