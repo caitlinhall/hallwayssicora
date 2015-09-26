@@ -121,7 +121,7 @@ textarea {
 
 #third {
     background: url(../img/clean_textile.png) repeat;
-    height: 800px;
+    height: 900px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -203,59 +203,104 @@ a {
     margin-top: 25px;
 }
 
+#third h1{
+    display: inline-block;
+}
+
+.confetti{
+    width:100px;
+    display: inline-block;
+    margin-top: -17px;
+}
+
+.arrow{
+    width:100px;
+    display: inline-block;
+    margin-top: -17px;
+}
+
+.story h1{
+    display: inline-block;
+    color: #ACC1D6;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
     .form-container {
-        padding-bottom: 75%;
+        padding-bottom: 78%;
     }
 }
 
 @media (max-width: 1000px) {
     .form-container {
-        padding-bottom: 80%;
+        padding-bottom: 88%;
     }
 }
 
 @media (max-width: 895px) {
     .form-container {
-        padding-bottom: 90%;
+        padding-bottom: 98%;
     }
 }
 
 @media (max-width: 795px) {
     .form-container {
-        padding-bottom: 100%;
+        padding-bottom: 110%;
     }
 }
 
 @media (max-width: 710px) {
     .form-container {
-        padding-bottom: 115%;
+        padding-bottom: 130%;
     }
 }
 
 @media (max-width: 590px) {
     .form-container {
-        padding-bottom: 130%;
+        padding-bottom: 150%;
     }
 }
 
 @media (max-width: 505px) {
     .form-container {
-        padding-bottom: 150%;
+        padding-bottom: 178%;
     }
 }
 
 @media (max-width: 440px) {
     .form-container {
-        padding-bottom: 165%;
+        padding-bottom: 200%;
     }
 }
 
 @media (max-width: 400px) {
     .form-container {
-        padding-bottom: 215%;
+        padding-bottom: 210%;
+    }
+}
+
+@media (max-width: 380px) {
+    .form-container {
+        padding-bottom: 232%;
+    }
+}
+
+@media (max-width: 360px) {
+    .form-container {
+        padding-bottom: 250%;
+    }
+}
+
+@media (max-width: 340px) {
+    .form-container {
+        padding-bottom: 260%;
+    }
+}
+
+@media (max-width: 320px) {
+    .form-container {
+        padding-bottom: 270%;
     }
 }
 
