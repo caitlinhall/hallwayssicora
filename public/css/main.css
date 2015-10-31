@@ -120,7 +120,7 @@ textarea {
 }
 
 #third {
-    background: url(../img/clean_textile.png) repeat;
+    background: white;
     height: 900px;
     margin: 0 auto;
     overflow: hidden;
@@ -129,6 +129,41 @@ textarea {
 }
 
 #fourth {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+}
+
+#fifth{
+    background: white;
+    height: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+}
+
+#fourth h1{
+    color: #ACC1D6;
+}
+
+#fourth p{
+    font-size: 34pt;
+    font-family: Old Standard TT, Georgia;
+    font-style: italic;
+    font-weight: bold;
+    color: #ACC1D6;
+}
+
+#fourth a{
+    font-size: 34pt;
+    font-family: Old Standard TT, Georgia;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#rsvp-form {
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -176,7 +211,7 @@ p {
 
 .form-container {
     position: relative;
-    padding-bottom: 55%;
+    padding-bottom: 64%;
     padding-top: 35px;
 }
 
@@ -224,89 +259,150 @@ a {
     color: #ACC1D6;
 }
 
+.hotels{
+    padding: 0px 70px;
+}
+
+.venue-title{
+    color:#85C2A3;
+    font-weight: bolder;
+    line-height: 200%;
+}
+
+.headerText{
+    padding:20px;
+    font-size: 20px;
+}
+
+#header a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#A8A8A8;
+    text-decoration: none;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
     .form-container {
-        padding-bottom: 78%;
+        padding-bottom: 84%;
     }
 }
 
 @media (max-width: 1000px) {
     .form-container {
-        padding-bottom: 88%;
+        padding-bottom: 94%;
     }
 }
 
 @media (max-width: 895px) {
     .form-container {
-        padding-bottom: 98%;
+        padding-bottom: 104%;
     }
 }
 
 @media (max-width: 795px) {
     .form-container {
-        padding-bottom: 110%;
+        padding-bottom: 118%;
     }
 }
 
 @media (max-width: 710px) {
     .form-container {
-        padding-bottom: 130%;
+        padding-bottom: 140%;
     }
 }
 
 @media (max-width: 590px) {
     .form-container {
-        padding-bottom: 150%;
+        padding-bottom: 164%;
     }
 }
 
 @media (max-width: 505px) {
     .form-container {
-        padding-bottom: 178%;
+        padding-bottom: 194%;
     }
 }
 
 @media (max-width: 440px) {
     .form-container {
-        padding-bottom: 200%;
+        padding-bottom: 214%;
     }
 }
 
 @media (max-width: 400px) {
     .form-container {
-        padding-bottom: 210%;
+        padding-bottom: 228%;
     }
 }
 
 @media (max-width: 380px) {
     .form-container {
-        padding-bottom: 232%;
+        padding-bottom: 252%;
     }
 }
 
 @media (max-width: 360px) {
     .form-container {
-        padding-bottom: 250%;
+        padding-bottom: 270%;
     }
 }
 
 @media (max-width: 340px) {
     .form-container {
-        padding-bottom: 260%;
+        padding-bottom: 290%;
     }
 }
 
 @media (max-width: 320px) {
     .form-container {
-        padding-bottom: 270%;
+        padding-bottom: 310%;
     }
 }
 
 @media (max-width: 700px) {
     .venues{
         padding: 10px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    #fourth p{
+        font-size: 30px;
+    }
+
+    #fourth a{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 525px) {
+    #fourth p{
+        font-size: 20px;
+    }
+
+    #fourth a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    #fourth p{
+        font-size: 18px;
+    }
+
+    #fourth a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 445px) {
+    #fifth{
+        height:1000px;
     }
 }
 
