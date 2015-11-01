@@ -26,6 +26,7 @@
 
         <!-- Styles --> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
         <!-- <link rel="stylesheet" href="/css/reset.css"> --> <!-- CSS reset -->
         <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
         <link rel="stylesheet" href="/css/main.css"> <!-- My CSS -->
@@ -51,6 +52,23 @@
                 <a href="#rsvp" class="headerText">rsvp</a>
                 <a href="#accommodations" class="headerText">accommodations</a>
             </div>
+        </div>
+
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+          <a class="navmenu-brand" href="#">Menu</a>
+          <ul class="nav navmenu-nav">
+            <li><a href="#ourstory">Our Story</a></li>
+            <li><a href="#locations">The Wedding</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#accommodations">Accommodations</a></li>
+          </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
 
         <!-- 2 section -->
@@ -191,20 +209,23 @@
         <a name="accommodations"><div id="fifth" style="background-position: 50% 0px;"></a>
             <div class="center">
                 <h1>Wedding Accommodations</h1>
-                <p>We have a block of rooms at two hotels in Mankato, MN. Mankato City Center Hotel is downtown near the wedding party and all the night life you need to keep the party going after the reception. There will be transportation to and from this hotel and the reception location. The Best Western Hotel is within walking distance of the reception location. Stumbling home is approved.</p>
-                <div class="venues">
-                    <i>Mankato City Center Hotel</i><br>
-                    Phone Number: 507-345-1234<br>
+                <p>We have a block of rooms at two hotels in Mankato, MN.</p>
+
+                <div class="hotels">
+                    <div class="venue-title">Mankato City Center Hotel</div>
+                    <i>Phone Number: 507-345-1234</i><br>
                     101 East Main Street<br>
                     Mankato, MN 56001<br>
                     <a href="https://www.google.com/maps/dir/''/city+center+hotel+mankato/">Click here for directions.</a>
+                    <div style="padding:0px 40px;">Tip: Mankato City Center Hotel is downtown near the wedding party and all the night life you need to keep the party going after the reception. There will be transportation to and from this hotel and the reception location.</div>
                 </div>
-                <div class="venues">
-                    <i>Best Western Hotel</i><br>
-                    Phone Number: 507-625-9333<br>
+                <div class="hotels">
+                    <div class="venue-title">Best Western Hotel</div>
+                    <i>Phone Number: 507-625-9333</i><br>
                     1111 Range St<br>
                     Mankato, MN 56003<br>
                     <a href="https://www.google.com/maps/dir/''/best+western+mankato">Click here for directions.</a>
+                    <div style="padding:0px 40px;">Tip: The Best Western Hotel is within walking distance of the reception location. Stumbling home is approved.</div>
                 </div>
             </div>
         </div>
@@ -213,6 +234,8 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: My google analytics-->

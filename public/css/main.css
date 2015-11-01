@@ -209,6 +209,13 @@ p {
     line-height: 25px;
 }
 
+.hotels{
+    padding: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+
 .form-container {
     position: relative;
     padding-bottom: 64%;
@@ -259,10 +266,6 @@ a {
     color: #ACC1D6;
 }
 
-.hotels{
-    padding: 0px 70px;
-}
-
 .venue-title{
     color:#85C2A3;
     font-weight: bolder;
@@ -296,6 +299,38 @@ a:hover{
     color:white;
     font-style: italic;
     font-family: Old Standard TT, Georgia;
+}
+
+/* Responsive Menu */
+
+.navbar-default {
+    border: 0pt;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #969696;
+    background-color: #A8A8A8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+#myNavmenu{
+    visibility: none;
+}
+
+.navmenu-default, .navbar-default .navbar-offcanvas {
+    background-color: white;
+}
+
+.navmenu-default .navmenu-brand, .navbar-default .navbar-offcanvas .navmenu-brand {
+    border-bottom: 1pt solid #777;
+}
+
+.nav>li {
+    border-bottom: 1pt solid #777;
 }
 
 /* Responsive */
@@ -416,7 +451,17 @@ a:hover{
 
 @media (max-width: 445px) {
     #fifth{
-        height:1000px;
+        height:1400px;
+    }
+}
+
+@media (max-width: 600px) {
+    #header{
+        display: none;
+    }
+
+    #myNavmenu{
+        visibility: visible;
     }
 }
 
