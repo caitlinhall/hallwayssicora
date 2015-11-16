@@ -137,7 +137,7 @@ textarea {
 
 #fifth{
     background: white;
-    height: 1200px;
+    height: 1300px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -184,6 +184,15 @@ textarea {
 
 #sixth p{
     margin: 0px 0px 30px 0px;
+}
+
+#seventh{
+    background: white;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
 }
 
 .pretty-headers{
@@ -331,7 +340,7 @@ a:hover{
 #menu-icon{
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 20px;
     z-index: 2000000;
     width: 30px;
 }
@@ -351,9 +360,30 @@ a:hover{
 .headerText{
     display: block;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     text-align: right;
     border-bottom: 1px solid;
+}
+
+.hotels p{
+    margin: 0px 0px 20px 0px;
+}
+
+#love{
+    width:100%;
+}
+
+#img-love{
+    position: relative; 
+    width: 100%;
+}
+
+#img-love h2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    color: white; 
 }
 
 /* Responsive */
@@ -394,7 +424,7 @@ a:hover{
         padding: 20px 5px;
     }
     #fifth{
-        height: 1300px;
+        height: 1400px;
     }
 }
 
@@ -412,6 +442,9 @@ a:hover{
     .form-container {
         padding-bottom: 140%;
     }
+    .new-header{
+        width: 40%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -425,10 +458,7 @@ a:hover{
         padding-bottom: 164%;
     }
     #fifth{
-        height: 1400px;
-    }
-    .new-header{
-        width: 40%;
+        height: 1500px;
     }
 }
 
@@ -439,6 +469,9 @@ a:hover{
 
     #fourth a{
         font-size: 20px;
+    }
+    .new-header{
+        width: 50%;
     }
 }
 
@@ -453,10 +486,10 @@ a:hover{
         padding-bottom: 214%;
     }
     #fifth{
-        height: 1500px;
+        height: 1700px;
     }
     .new-header{
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -471,16 +504,13 @@ a:hover{
         padding-bottom: 252%;
     }
     #fifth{
-        height: 1600px;
+        height: 1800px;
     }
 }
 
 @media (max-width: 360px) {
     .form-container {
         padding-bottom: 270%;
-    }
-    .new-header{
-        width: 60%;
     }
     #fourth p{
         font-size: 18px;
@@ -494,6 +524,9 @@ a:hover{
 @media (max-width: 340px) {
     .form-container {
         padding-bottom: 290%;
+    }
+    .new-header{
+        width: 70%;
     }
 }
 
