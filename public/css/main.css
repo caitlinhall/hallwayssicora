@@ -380,7 +380,7 @@ a:hover{
 
 #img-love h2{
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     left: 10px;
     width: 100%;
     color: white; 
