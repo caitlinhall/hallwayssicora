@@ -300,11 +300,6 @@ a {
     line-height: 200%;
 }
 
-.headerText{
-    padding:20px;
-    font-size: 20px;
-}
-
 #header a{
     color:white;
     text-decoration: none;
@@ -329,6 +324,38 @@ a:hover{
     font-family: Old Standard TT, Georgia;
 }
 
+#menu{
+    position: relative;
+}
+
+#menu-icon{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2000000;
+    width: 30px;
+}
+
+.new-header{
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000000;
+    background-color: #F8F8F8;
+    width: 30%;
+    height: 100%;
+    padding-top: 70px; 
+}
+
+.headerText{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
@@ -349,6 +376,16 @@ a:hover{
     }
 }
 
+@media (max-width: 800px) {
+    #fourth p{
+        font-size: 30px;
+    }
+
+    #fourth a{
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 795px) {
     .form-container {
         padding-bottom: 118%;
@@ -361,9 +398,25 @@ a:hover{
     }
 }
 
+@media (max-width: 770px) {
+    #header{
+        display: none;
+    }
+
+    #myNavmenu{
+        visibility: visible;
+    }
+}
+
 @media (max-width: 710px) {
     .form-container {
         padding-bottom: 140%;
+    }
+}
+
+@media (max-width: 700px) {
+    .venues{
+        padding: 10px 20px;
     }
 }
 
@@ -373,6 +426,19 @@ a:hover{
     }
     #fifth{
         height: 1400px;
+    }
+    .new-header{
+        width: 40%;
+    }
+}
+
+@media (max-width: 525px) {
+    #fourth p{
+        font-size: 20px;
+    }
+
+    #fourth a{
+        font-size: 20px;
     }
 }
 
@@ -388,6 +454,9 @@ a:hover{
     }
     #fifth{
         height: 1500px;
+    }
+    .new-header{
+        width: 50%;
     }
 }
 
@@ -410,6 +479,16 @@ a:hover{
     .form-container {
         padding-bottom: 270%;
     }
+    .new-header{
+        width: 60%;
+    }
+    #fourth p{
+        font-size: 18px;
+    }
+
+    #fourth a{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 340px) {
@@ -421,52 +500,6 @@ a:hover{
 @media (max-width: 320px) {
     .form-container {
         padding-bottom: 310%;
-    }
-}
-
-@media (max-width: 700px) {
-    .venues{
-        padding: 10px 20px;
-    }
-}
-
-@media (max-width: 800px) {
-    #fourth p{
-        font-size: 30px;
-    }
-
-    #fourth a{
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 525px) {
-    #fourth p{
-        font-size: 20px;
-    }
-
-    #fourth a{
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 360px) {
-    #fourth p{
-        font-size: 18px;
-    }
-
-    #fourth a{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 770px) {
-    #header{
-        display: none;
-    }
-
-    #myNavmenu{
-        visibility: visible;
     }
 }
 
