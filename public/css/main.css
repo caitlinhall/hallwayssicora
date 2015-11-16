@@ -121,7 +121,7 @@ textarea {
 
 #third {
     background: white;
-    height: 900px;
+    height: 1000px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -137,7 +137,7 @@ textarea {
 
 #fifth{
     background: white;
-    height: 900px;
+    height: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -161,6 +161,33 @@ textarea {
     font-family: Old Standard TT, Georgia;
     font-style: italic;
     font-weight: bold;
+}
+
+#sixth{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+}
+
+#sixth h2{
+    color: #5c5c5c;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sixth h1{
+    margin: 40px 20px 30px 20px;
+    text-align: left;
+    color: #ACC1D6;
+}
+
+#sixth p{
+    margin: 0px 0px 30px 0px;
+}
+
+.pretty-headers{
+    margin-top: 30px;
 }
 
 #rsvp-form {
@@ -210,7 +237,8 @@ p {
 }
 
 .hotels{
-    padding: 20px 0px;
+    text-align: left;
+    padding: 20px 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: #5c5c5c;
@@ -256,9 +284,9 @@ a {
 }
 
 .arrow{
-    width:100px;
+    width: 200px;
     display: inline-block;
-    margin-top: -17px;
+    margin-top: 40px;
 }
 
 .story h1{
@@ -325,6 +353,12 @@ a:hover{
     .form-container {
         padding-bottom: 118%;
     }
+    .hotels{
+        padding: 20px 5px;
+    }
+    #fifth{
+        height: 1300px;
+    }
 }
 
 @media (max-width: 710px) {
@@ -336,6 +370,9 @@ a:hover{
 @media (max-width: 590px) {
     .form-container {
         padding-bottom: 164%;
+    }
+    #fifth{
+        height: 1400px;
     }
 }
 
@@ -349,6 +386,9 @@ a:hover{
     .form-container {
         padding-bottom: 214%;
     }
+    #fifth{
+        height: 1500px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -360,6 +400,9 @@ a:hover{
 @media (max-width: 380px) {
     .form-container {
         padding-bottom: 252%;
+    }
+    #fifth{
+        height: 1600px;
     }
 }
 
@@ -417,13 +460,7 @@ a:hover{
     }
 }
 
-@media (max-width: 445px) {
-    #fifth{
-        height:1400px;
-    }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 770px) {
     #header{
         display: none;
     }
