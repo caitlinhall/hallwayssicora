@@ -154,17 +154,26 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
+.cd-timeline-img.cd-lightgrey {
+  background: #E8E8E8;
+}
+.cd-timeline-img.cd-darkgrey {
+  background: #8f8f8f;
+}
 .cd-timeline-img.cd-lightblue {
-  background: #ACC1D6;
+  background: #dfecfb;
 }
-.cd-timeline-img.cd-dustyblue {
-  background: #E5F1FF;
+.cd-timeline-img.cd-darkblue {
+  background: #d3e7fd;
 }
-.cd-timeline-img.cd-sage {
-  background: #C2E0D1;
+.cd-timeline-img.cd-darkpurple {
+  background: #61005f;
 }
-.cd-timeline-img.cd-olive {
-  background: #45A062;
+.cd-timeline-img.cd-navy {
+  background: #002e5c;
+}
+.cd-timeline-img.cd-lightpurple {
+  background: #f2d9f2;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -258,7 +267,7 @@ header h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #5c5c5c;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
