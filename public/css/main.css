@@ -189,7 +189,7 @@ textarea {
 
 #seventh{
     background: white;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -382,6 +382,16 @@ a:hover{
     width: 100%; 
 }
 
+.registry{
+    width:100%;
+    max-width: 200px;
+    margin: 40px;
+}
+
+.registries{
+    margin-bottom: 200px;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
@@ -421,6 +431,10 @@ a:hover{
     }
     #fifth{
         height: 1400px;
+    }
+
+    #seventh{
+        height: 750px;
     }
 }
 
@@ -468,6 +482,10 @@ a:hover{
     }
     .new-header{
         width: 50%;
+    }
+
+    #seventh{
+        height: 775px;
     }
 }
 
@@ -529,6 +547,10 @@ a:hover{
 @media (max-width: 320px) {
     .form-container {
         padding-bottom: 310%;
+    }
+
+    #seventh{
+        height: 800px;
     }
 }
 
