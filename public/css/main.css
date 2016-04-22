@@ -121,7 +121,6 @@ textarea {
 
 #third {
     background: white;
-    height: 1000px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
@@ -189,6 +188,15 @@ textarea {
 
 #seventh{
     background: white;
+    height: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+    position: relative; 
+}
+
+#eighth{
     height: 700px;
     margin: 0 auto;
     overflow: hidden;
